@@ -2,11 +2,15 @@ body {
     font-family: arial, sans-serif;
   }
   
+
   h1 {
     color: rgb(247, 204, 3);
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 300;
-    font-family: "Fredoka", sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Padauk', sans-serif;
+    font-family: 'Staatliches', cursive;
     line-height: 28px;
     text-align: center;
     margin: 0;
@@ -55,7 +59,20 @@ body {
     min-height: 100%;
     z-index: -1;
   }
-  
+
+  #open-source-text {
+        font-family: "Fredoka", sans-serif;
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+        left: 220px;
+  }
+
+  #quote {
+    position: relative;
+    top: 28px;
+    left: 280px;
+  }
   .weather-app {
     background-color: #fff;
     border: 2px solid #4fdbee;
