@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App Api</title>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script>
+    <title>WeatherApp</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/4a50478382.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Grape+Nuts&display=swap" rel="stylesheet">
+
 </head>
-<body>
+
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <h1>Weather Now</h1>
+        <form action="" id="search-form" class="search-form">
+          <div class="row">
+            <div class="col-8">
+              <input type="search" id="search-form-input" placeholder="Type a city here" autofocus="on" autocomplete="off" class="form-control"/>
+            </div>
+            <div class="col-2">
+              <input type="submit" value="Search" class="form-control btn
+              btn-primary shadow-sm" id="search-button"/>
+            </div>
+            <div class="col-2">
+              <input type="button" value="Current" class="btn btn-success" id="current-location-button"/>
+            </div>
+          </div>
+        </form>
+          <h2 id="city-display"></h2>
+          <ul>
+            <li id="day-time">
+              Wednesday 17:05
+            </li>
+            <li id="day-feel">
+              Sunny day
+            </li>
+          </ul>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix">
+                <img src="images/sun.png" alt="sun" class="logo" />
+                <div class="float-left">
+                  <span class="temperature" id="temperature">?</span>
+                  <span class="units">
+                    <a href="#" id="celsius-link" data-ol-has-click-handler>°C</a>
+                    |
+                    <a href="#" id="farenheit-link" data-ol-has-click-handler
+                    >°F</a
+                    >
+                  </span>
+                </div>
+              </div>
+              <div class="col-6" id="additional-info">
+                <ul>
+                  <li>
+                    Humidity: <span id="humidity">%</span>
+                  </li>
+                  <li>
+                    Wind: <span id="wind"></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p>"May the force be with you" ~1977</p>
+          <i class="fa-brands fa-cloudversify"></i>
+        </div>
+      </div>
+    </div>
     
-</body>
-</html>
+    <video src="images/sky.mp4" autoplay muted loop id="myVideo" type="video/mp4"></video>
+    <script src="src/index.js"></script>
+  </body>
+  </html>
+  

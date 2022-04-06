@@ -1,0 +1,113 @@
+body {
+    font-family: arial, sans-serif;
+  }
+  
+  h1 {
+    color: rgb(247, 204, 3);
+    font-size: 36px;
+    font-weight: 300;
+    font-family: "Fredoka", sans-serif;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  ul {
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  
+  li {
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 100;
+    height: 19px;
+    line-height: 1;
+    list-style: none;
+  }
+  
+  p {
+    color: #033772;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+  }
+  
+  #city-display {
+    color: rgb(81, 151, 212);
+  }
+  
+  #day-time {
+    font-size: 18px;
+  }
+  
+  #day-feel {
+    font-size: 16px;
+    color: #0a7b83;
+    margin-bottom: 10px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  .weather-app {
+    background-color: #fff;
+    border: 2px solid #4fdbee;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  
+  .temperature {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+  }
+  
+  .units a {
+    text-decoration: none;
+  }
+  
+  .units {
+    position: relative;
+    top: -90px;
+    left: 70px;
+  }
+  
+  .search-form {
+    margin-bottom: 10px;
+    margin-top: 60px;
+  }
+  
+  #search-form-input {
+    margin-bottom: 40px;
+  }
+  
+  .temperature {
+    position: relative;
+    left: 70px;
+    bottom: 58px;
+  }
+  
+  .logo {
+    position: relative;
+    left: -5px;
+    bottom: -5px;
+  }
+  
+  #additional-info {
+    position: relative;
+    left: 230px;
+    bottom: 115px;
+  }
+  
